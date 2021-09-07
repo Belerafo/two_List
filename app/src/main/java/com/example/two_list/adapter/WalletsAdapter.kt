@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.two_list.common.RecyclerDiffUtil
 import com.example.two_list.databinding.WalletRowLayoutBinding
 import com.example.two_list.model.WalletsItem
-import retrofit2.Response
 
 class WalletsAdapter: RecyclerView.Adapter<WalletsAdapter.MyVieHolder>()  {
     private var currency = emptyList<WalletsItem>()
